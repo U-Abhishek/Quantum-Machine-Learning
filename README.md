@@ -1,7 +1,7 @@
 # Quantum-Machine-Learning
 
 ## 1)Quantum Computing Operations and Algorithms
-### Quantum States and Circuits
+### 1a.Quantum States and Circuits
 #####     1: Bit Flip
 #####     2: Plus State
 #####     3: Minus State
@@ -9,7 +9,7 @@
 #####     5: Bell State
 #####     6: GHZ-like State
 Check out this chapter if you would like to refresh the theory: https://qiskit.org/textbook/ch-gates/introduction.html.
-### The Deutsch-Jozsa Algorithm
+### 1b.The Deutsch-Jozsa Algorithm
 Many quantum algoritms revolve around the notion of so called oracles. An oracle is a function that can be considered as a 'black box'. We generally want to find out specific properties of this function. We do this by asking questions to the oracle (*querying*). The query complexity is then defined as the minimum number of queries in order to find these properties.
 
 
