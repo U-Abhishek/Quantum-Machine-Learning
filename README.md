@@ -58,3 +58,13 @@ The algorithm calculates the conditional value at risk and observe how different
 
 ![newplot (5)](https://user-images.githubusercontent.com/86155658/127026232-edd2d7eb-b621-4c6e-9da3-4d0837799341.png)
 
+# Resources
+
+- [Tutorial on VQEs](https://qiskit.org/textbook/ch-applications/vqe-molecules.html) in Qiskit Textbook
+- [Tutorial on combinatorial optimization with QAOA](https://qiskit.org/textbook/ch-applications/qaoa.html) in Qiskit Textbook
+- E. Farhi, J. Goldstone, and S. Gutmann, [A Quantum Approximate Optimization Algorithm (2014)](https://arxiv.org/abs/1411.4028): The original QAOA paper 
+- [Qiskit Optimization Tutorials](https://qiskit.org/documentation/tutorials/optimization/index.html) including
+    - [Quadratic Programs](https://qiskit.org/documentation/tutorials/optimization/1_quadratic_program.html)
+    - [Quadratic Program Converters](https://qiskit.org/documentation/tutorials/optimization/2_converters_for_quadratic_programs.html)
+    - [Minimum Eigen Optimizer](https://qiskit.org/documentation/tutorials/optimization/3_minimum_eigen_optimizer.html)
+- Talk by E. Farhi on [recent results for QAOA](https://www.youtube.com/watch?v=8GnRRxlZuZo) at the Simons Institute for the Theory of Computing
