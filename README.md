@@ -46,11 +46,15 @@ Test the effect of some of these arguments on the optimization procedure of QAOA
 ##### QAOA Energy Landscape
 ![newplot (3)](https://user-images.githubusercontent.com/86155658/127025478-8ba01799-1bfa-45ce-ab55-ad6f6960c338.png)
 
-####     4: Conditional Value at Risk
+###     4: Conditional Value at Risk
 #### CVaR
 One recently proposed adaptation to QAOA is the idea of calculating the Conditional Value at Risk (or CVaR). Here, instead of calculating the mean of all cut values c_i obtained from the measurement outcomes of the circuit to compute the cost function f, the algorithm only takes into account a fraction alpha of the highest measured cut values.
 Where the c_i are ordered decreasing in size.
 Since we are only interested in obtaining a single good solution for the original optimization problem, looking only at a fraction of the best cuts can help to speed up the optimization process. Let us explore how adding CVaR can change the energy landscape of a QAOA instance. The following code creates and plots a QAOA energy landscape of a given MaxCut instance using your code from the previous exercises and returns the optimal parameters obtained during a grid search. Calculating the energy landscape might take a while.
+
 ![newplot (4)](https://user-images.githubusercontent.com/86155658/127026025-3d880b5c-1b16-4529-8306-3143988b0eca.png)
+
+The algorithm calculates the conditional value at risk and observe how different settings of the parameter "alpha" change the QAOA energy landscape. What are the energy and optimal parameters we obtain by the grid search when setting the CVaR parameter 
+
 ![newplot (5)](https://user-images.githubusercontent.com/86155658/127026232-edd2d7eb-b621-4c6e-9da3-4d0837799341.png)
 
